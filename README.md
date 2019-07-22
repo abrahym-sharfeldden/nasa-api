@@ -35,11 +35,17 @@ git clone https://github.com/abrahym-sharfeldden/nasa-api
 
 2. Navigate to the folder and run the local host
 
-`cd [~/ToClone/Location]`
+```
+cd [~/ToClone/Location]
+```
 
-`export FLASK_APP=app.py`
+```
+export FLASK_APP=app.py
+```
 
-`flask run`
+```
+flask run
+```
 
 ## Built With
 

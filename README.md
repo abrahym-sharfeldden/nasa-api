@@ -55,4 +55,4 @@ flask run
 ## Authors
 
 * **Abrahym Sharf Eldden** - *Initial Work* - [abrahym-sharfeldden](https://github.com/abrahym-sharfeldden)
-* **Billie Thompson** - *README.md Template* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Billie Thompson** - *[README.md Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)* - [PurpleBooth](https://github.com/PurpleBooth)

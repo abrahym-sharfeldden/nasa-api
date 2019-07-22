@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NASA API</title>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="card">
+        <div class="card-title">
+            <h1><a href="{{api.url}}">{{api.title}}</a></h1>
+        </div>
+
+        <div class="card-header">
+            <img src="{{api.hdurl}}" width="400" height="400">
+        </div>
+        <div class="card-content">
+            <div class="summary">
+                <p>{{api.explanation}}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

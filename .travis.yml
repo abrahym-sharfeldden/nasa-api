@@ -5,8 +5,8 @@ sudo: required
 
 
 #command to run tests
-# script:
-#   - pytest
+script:
+  - python app.py
 
 after_Script: cd ~
 

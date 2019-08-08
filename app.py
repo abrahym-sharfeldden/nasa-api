@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 import urllib.request
@@ -23,3 +23,13 @@ api = decodeAPI(readAPI(callAPI(apiurl, key)))
 @app.route('/')
 def index():
  	return render_template('index.html', api=api)
+
+
+# @app.route('/', methods=['POST'])
+# def apiKey():
+# 	if request.form['apiKey']:
+#     	return request.form['apiKey']
+#     else:
+#     	return "DEMO_KEY"
+
+# https://data.cityofnewyork.us/resource/43nn-pn8j.csv

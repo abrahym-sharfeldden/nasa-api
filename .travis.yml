@@ -1,8 +1,10 @@
-dist: xenial          #required for Python >= 3.7
 language: python
+dist: xenial          #required for Python >= 3.7
 python: '3.7'
 sudo: required
 
+install:
+  - pip3 install -r requirements.txt
 
 #command to run tests
 script:

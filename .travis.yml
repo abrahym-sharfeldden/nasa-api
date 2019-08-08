@@ -12,9 +12,11 @@ after_Script: cd ~
 
 deploy:
   provider: pages
+  local_dir: /
   skip_cleanup: true
   github_token: xb7AQgPl5fJgTVfY_WawDw
   keep_history: true
   app: nasa-api
+  repo: abrahym-sharfeldden/nasa-api
   on:
-    branch: travis-ci
+    branch: gh-pages

@@ -13,8 +13,8 @@ after_Script: cd ~
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 
+  github_token: xb7AQgPl5fJgTVfY_WawDw
   keep_history: true
   app: nasa-api
   on:
-    branch: master
+    branch: travis-ci
